@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <title>Futbolista</title>
+</head>
+<body>
+        <p>
+            <label for="equipo_fav"><strong>Eliga su equipo favorito</strong></label>
+        </p>
+        <p>
+            <select name="equip_fav" id="equipo_fav" size="">
+                <optgroup label="Premier">
+                <option value="1">Liverpool</option>
+                <option value="2">Chelsea</option>
+                <option value="3">Man United</option>
+                </optgroup>
+                <optgroup label="Liga EA Sport">
+                <option value="4">Real Madrid</option>
+                <option value="5">FC Barcelona</option>
+                <option value="6">Atletico Madrid</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="atr"><strong>Eliga su atríbuto favorito de un jugador</strong></label>
+        </p>
+        <p>
+            <select name="atri" id="atr" size="">
+                <option value="1">Tiro</option>
+                <option value="2">Pase</option>
+                <option value="3">Defensa</option>
+                <option value="4">Regate</option>
+            </select>
+        </p>
+
+        <p id="demo"></p>
+        <button oneclick="recogerDatos();">Enviar</button>
+</body>
+</html>
